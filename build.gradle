@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation group: 'jgraph', name: 'jgraph', version: '5.13.0.0'
+// https://mvnrepository.com/artifact/guru.nidi/graphviz-java
+    implementation group: 'guru.nidi', name: 'graphviz-java', version: '0.18.1'
+
 
 }
